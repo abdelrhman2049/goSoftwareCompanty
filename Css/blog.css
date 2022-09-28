@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+}
+
+/* NavBar */
+nav {
+  background-color: #0c1713;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav div {
+  cursor: pointer;
+}
+nav div img {
+  width: 25px;
+  /* padding: 1; */
+  position: absolute;
+  left: 50px;
+  top: 12px;
+}
+nav div p {
+  color: #d3caca;
+  position: absolute;
+  left: 90px;
+  top: 15px;
+}
+nav ul {
+  display: flex;
+  justify-content: end;
+}
+nav ul li {
+  margin-right: 20px;
+  list-style: none;
+  margin-bottom: -11px;
+}
+nav ul li a {
+  padding: 10px;
+  color: #eef4ed;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: #197278;
+  transition: all 0.2s;
+  outline: #197278 0.5px solid;
+}
+
+.active {
+  background-color: #197278;
+}
+
+.path {
+  display: inline-flex;
+  background-color: #197278;
+  color: #eef4ed;
+  font-size: larger;
+  width: 99.23%;
+  padding: 5px;
+}
+.path a {
+  color: #eef4ed;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.path a:hover {
+  background-color: #043535;
+  transition: all 0.2s;
+}
+.activepath {
+  color: #043535 !important;
+}
+
+.activepath:hover {
+  background-color: #0a3030 !important;
+  color: #ff9914 !important;
+}
+
+.sec1 {
+  text-align: center;
+  background-color: #e6e6e6;
+  padding: 30px;
+}
+.sec1 p {
+  margin-top: 20px;
+  color: #0c1713;
+  font-size: larger;
+  font-style: italic;
+}
+
+.section2 table {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.section2 table tbody tr td img {
+  width: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.centersec {
+  display: flex;
+
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 400px;
+  padding: 30px;
+  margin-top: -150px;
+  /* border: #0c1713 2px solid; */
+  background-color: #eef4ed;
+}
+.centersec .photo {
+  padding: 50px;
+  width: 400px;
+  height: 200px;
+  background-color: #197278;
+  border-radius: 50px 50px 50px 0;
+
+  margin-top: 60px;
+}
+.centersec img {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -90px;
+  border-radius: 50px 50px 50px 0;
+  outline: #ff9914 1px dashed;
+  outline-offset: 5px;
+}
+.centersec hr {
+  color: #ff9914;
+  border: #ff9914 2px solid;
+  margin-left: 20px;
+}
+.text {
+  margin-left: 20px;
+}
+.text button {
+  margin-top: 20px;
+  background-color: #0c1713;
+  color: #e6e6e6;
+  padding: 5px 13px;
+  border: none;
+  font-size: medium;
+  outline: #ff9914 2px dotted;
+  outline-offset: 3px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.text button:hover {
+  background-color: #ff9914;
+  transition: all 0.5s;
+  transform: translateY(-5px);
+}
+.break {
+  margin-top: 40px;
+}
+.hrbreeak {
+  width: 1000px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  /* align-items: center; */
+  border-radius: 30px;
+  border: #0c1713 0.2px solid;
+
+  border-style: dashed;
+}
+.tableright table {
+  position: absolute;
+  right: 30px;
+  top: 330px;
+}
+.tableright table tbody tr td hr {
+  width: 150px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.tableright p {
+  width: 200px;
+  margin-top: 5px;
+}
+
+.tableright hr {
+  width: 300px;
+  border: #ff9914 0.2px solid;
+}
+.tableright input {
+  width: 80px;
+  height: 35px;
+  padding: 8px;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 1px solid #197278;
+  margin-bottom: 10px;
+}
+.tableright input:focus {
+  width: 200px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #197278;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 0px 5px 2px #197278;
+}
+.tableright input::placeholder {
+  color: black;
+}
+.tableright .dash1,
+a {
+  text-decoration: none;
+  color: #0c1713;
+  /* margin-top: 50px; */
+  border-bottom: 0.5px dashed #197278;
+}
+.tableright a:hover {
+  color: #197278;
+}
+.tablesec2 {
+  position: absolute;
+  top: 800px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c1713;
+  padding: 5px;
+  position: absolute;
+  bottom: 100;
+  width: 99.2%;
+}
+footer img {
+  filter: grayscale(100%);
+  width: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+footer img:hover {
+  filter: grayscale(0%);
+  outline: #ff9914 1px dashed;
+  outline-offset: 2px;
+}
